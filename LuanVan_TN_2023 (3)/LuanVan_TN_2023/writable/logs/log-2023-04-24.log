@@ -1,0 +1,77 @@
+ERROR - 2023-04-24 14:47:50 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\LuanVan_TN_2023\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 D:\LuanVan_TN_2023\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', '', '', '', 3306, '', 0)
+#1 D:\LuanVan_TN_2023\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\LuanVan_TN_2023\system\Database\Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\LuanVan_TN_2023\system\Database\Config.php(109): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#4 D:\LuanVan_TN_2023\system\Commands\Database\CreateDatabase.php(137): CodeIgniter\Database\Config::forge()
+#5 D:\LuanVan_TN_2023\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\CreateDatabase->run(Array)
+#6 D:\LuanVan_TN_2023\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:create', Array)
+#7 D:\LuanVan_TN_2023\spark(97): CodeIgniter\CLI\Console->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\LuanVan_TN_2023\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\LuanVan_TN_2023\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\LuanVan_TN_2023\system\Database\Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\LuanVan_TN_2023\system\Database\Config.php(109): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#3 D:\LuanVan_TN_2023\system\Commands\Database\CreateDatabase.php(137): CodeIgniter\Database\Config::forge()
+#4 D:\LuanVan_TN_2023\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\CreateDatabase->run(Array)
+#5 D:\LuanVan_TN_2023\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:create', Array)
+#6 D:\LuanVan_TN_2023\spark(97): CodeIgniter\CLI\Console->run()
+#7 {main}
+ERROR - 2023-04-24 14:48:29 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\LuanVan_TN_2023\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 D:\LuanVan_TN_2023\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', '', '', '', 3306, '', 0)
+#1 D:\LuanVan_TN_2023\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\LuanVan_TN_2023\system\Database\Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\LuanVan_TN_2023\system\Database\Config.php(109): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#4 D:\LuanVan_TN_2023\system\Commands\Database\CreateDatabase.php(137): CodeIgniter\Database\Config::forge()
+#5 D:\LuanVan_TN_2023\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\CreateDatabase->run(Array)
+#6 D:\LuanVan_TN_2023\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:create', Array)
+#7 D:\LuanVan_TN_2023\spark(97): CodeIgniter\CLI\Console->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\LuanVan_TN_2023\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\LuanVan_TN_2023\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\LuanVan_TN_2023\system\Database\Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\LuanVan_TN_2023\system\Database\Config.php(109): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#3 D:\LuanVan_TN_2023\system\Commands\Database\CreateDatabase.php(137): CodeIgniter\Database\Config::forge()
+#4 D:\LuanVan_TN_2023\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\CreateDatabase->run(Array)
+#5 D:\LuanVan_TN_2023\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:create', Array)
+#6 D:\LuanVan_TN_2023\spark(97): CodeIgniter\CLI\Console->run()
+#7 {main}
+ERROR - 2023-04-24 14:54:26 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\LuanVan_TN_2023\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 D:\LuanVan_TN_2023\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', '', '', '', 3306, '', 0)
+#1 D:\LuanVan_TN_2023\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\LuanVan_TN_2023\system\Database\Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\LuanVan_TN_2023\system\Database\Config.php(109): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#4 D:\LuanVan_TN_2023\system\Commands\Database\CreateDatabase.php(137): CodeIgniter\Database\Config::forge()
+#5 D:\LuanVan_TN_2023\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\CreateDatabase->run(Array)
+#6 D:\LuanVan_TN_2023\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:create', Array)
+#7 D:\LuanVan_TN_2023\spark(97): CodeIgniter\CLI\Console->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\LuanVan_TN_2023\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\LuanVan_TN_2023\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\LuanVan_TN_2023\system\Database\Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\LuanVan_TN_2023\system\Database\Config.php(109): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#3 D:\LuanVan_TN_2023\system\Commands\Database\CreateDatabase.php(137): CodeIgniter\Database\Config::forge()
+#4 D:\LuanVan_TN_2023\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\CreateDatabase->run(Array)
+#5 D:\LuanVan_TN_2023\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:create', Array)
+#6 D:\LuanVan_TN_2023\spark(97): CodeIgniter\CLI\Console->run()
+#7 {main}
+ERROR - 2023-04-24 14:56:07 --> mysqli_sql_exception: Can't create database 'luanvan'; database exists in D:\LuanVan_TN_2023\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\LuanVan_TN_2023\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE DATABASE...', 0)
+#1 D:\LuanVan_TN_2023\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('CREATE DATABASE...')
+#2 D:\LuanVan_TN_2023\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE DATABASE...')
+#3 D:\LuanVan_TN_2023\system\Database\Forge.php(230): CodeIgniter\Database\BaseConnection->query('CREATE DATABASE...')
+#4 D:\LuanVan_TN_2023\system\Commands\Database\CreateDatabase.php(137): CodeIgniter\Database\Forge->createDatabase('luanvan')
+#5 D:\LuanVan_TN_2023\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\CreateDatabase->run(Array)
+#6 D:\LuanVan_TN_2023\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:create', Array)
+#7 D:\LuanVan_TN_2023\spark(97): CodeIgniter\CLI\Console->run()
+#8 {main}

@@ -1,0 +1,136 @@
+/* .alert.alert-danger.mb-1 {
+    border-color: #dc3545;
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border-radius: .25rem;
+}
+
+.form-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+}
+
+.container label {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.container input[type="text"],
+input[type="password"] {
+    width: 500px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.container button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button[type="submit"]:hover {
+    background-color: #3e8e41;
+} */
+
+.form-register {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+}
+
+.form-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #d9d9d9;
+}
+
+.container h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.container label {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.container input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #d9d9d9;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.container input[type="text"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    border-color: #4CAF50;
+}
+
+.container button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.container button[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+.container a {
+    color: #4CAF50;
+    font-size: 16px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.container a:hover {
+    text-decoration: underline;
+}
